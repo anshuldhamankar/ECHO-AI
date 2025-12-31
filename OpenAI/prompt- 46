@@ -1,0 +1,23 @@
+Open AI response fromusing artificial intelligence write a python code to print star pattern
+n ***********************\n
+
+# Define a function for the star pattern
+def star_pattern(rows):
+ 
+ # Initiate outer loop for 'rows'
+ for i in range (0, rows):
+   
+ # Initiate inner loop for columns
+  for j in range(0, i + 1):
+  
+  # Print star pattern 
+   print("* ", end="")
+ 
+ # End inner loop
+ print("\n")
+
+# print number of rows
+rows = 5
+
+# call star_pattern function
+star_pattern(rows)

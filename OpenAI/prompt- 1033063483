@@ -1,0 +1,29 @@
+Open AI response fromwrite me a full python code to print star pyramid using artificial intelligence
+n ***********************\n
+
+# Program to print a star pyramid using artificial intelligence. 
+
+# define the max width of the pyramid    
+height = 6
+
+# Loop for each row in the pyramid    
+for row in range(1, height+1): 
+          
+    # number of spaces 
+    k = height - row  
+
+    # Loop for printing the required number of stars in each row 
+    for j in range(0, k+1): 
+        print(" " , end="") 
+          
+    # inner loop for printing stars in each row  
+    for col in range(1, (row*2)): 
+        # Printing stars 
+        if col%2==0: 
+            print("*", end="") 
+        else: 
+            # Printing spaces 
+            print(" ", end="")  
+      
+    # ending line after each row 
+    print("\r")

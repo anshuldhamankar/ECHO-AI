@@ -1,0 +1,31 @@
+Open AI response fromwrite me a Django code using Python using artificial intelligence
+n ***********************\n
+
+#import the django framework
+import django
+
+#import the necessary classes and functions from the django AI library
+from django.apps.ai.models import *
+
+#create a database model
+class StudentAI(models.Model):
+    student_name = models.CharField(max_length=200)
+    student_grade = models.IntegerField()
+
+#initialize the database with valid parameters
+StudentAI.objects.create(student_name='John',student_grade=90)
+
+#import the supervised learning class from the django AI library
+from django.apps.ai.supervisedlearning import SupervisedLearning
+
+#create the supervised learning object with valid parameters
+student_model = SupervisedLearning(StudentAI,feature_names=['student_name','student_grade'])
+
+#train the model using the training data
+student_model.fit(StudentAI.objects.all())
+
+#make a prediction for a new data
+predicted_grade = student_model.predict('John')
+
+#print the results
+print(predicted_grade)

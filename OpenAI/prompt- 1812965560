@@ -1,0 +1,42 @@
+Open AI response fromusing artificial intelligence write me a full python code for flappy bird gamae
+n ***********************\n
+
+import pygame 
+pygame.init() 
+
+#window size 
+w = 500 
+h = 800 
+
+#game window
+win = pygame.display.set_mode((w,h))
+
+#title and icon
+pygame.display.set_caption("Flappy Bird")
+icon = pygame.image.load('bird.png')
+pygame.display.set_icon(icon)
+
+#declaring all variables
+bird_x = 20
+bird_y = 500
+gravity = 0.06
+velocity = 0
+bird_width = 60 
+x_pipes = [400,600,800]
+x_pipe1 = 400
+x_pipe2 = 600
+x_pipe3 = 800
+
+pipe1_y = [200,620]
+pipe2_y = [200,620]
+pipe3_y = [200,620]
+point = 0
+
+run = True
+while run:
+
+    win.fill((0, 0, 0))
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run =

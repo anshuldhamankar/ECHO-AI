@@ -1,0 +1,32 @@
+Open AI response fromusing artificial intelligence write me a java code for hotel management system
+n ***********************\n
+
+//main HotelManagement class 
+public class HotelManagement {
+
+//instance variables 
+ public String hotelName;
+ public int numRooms;
+ public double roomService;
+
+//constructor
+ public HotelManagement(String name, int rooms, double service){
+ 	this.hotelName = name;
+ 	this.numRooms = rooms;
+ 	this.roomService = service;
+ }
+
+//methods 
+ public void start() {
+ 	//do setup tasks 
+ 	System.out.println("Welcome to the " + this.hotelName + " Hotel Management System.");
+ 	//run the Artificial Intelligence-based Management System
+ 	System.out.println("Starting Artificial Intelligence-Based Management System...");
+ 	//call the AI-based check-in method
+ 	this.AICheckIn();
+ }
+
+ public void AICheckIn(){
+ 	//code to use AI to check customers into the hotel
+ 	System.out.println("Using AI to check customers into the " + this.hotelName + "...");
+ 	System.out.println("Check-in

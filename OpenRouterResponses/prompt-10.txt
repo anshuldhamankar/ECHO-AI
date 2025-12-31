@@ -1,0 +1,20 @@
+OpenRouter API response for: recommend me a movie like comedy
+
+***********************
+If you're looking for a light-hearted and hilarious film, here are a few recommendations:
+
+1. "The Hangover" (2009) - A raunchy, laugh-out-loud comedy about a group of men who wake up after a night of heavy drinking with no memory of the night before and have to figure out what happened and why they're in so much trouble. 
+
+2. "Django Unchained" (2012) - A brilliant blend of western and comedy, it's about a bounty hunter who helped a slave exact revenge on failed slave owning misceants in old south America (1852).
+
+3. "Zoolander" (2001) - A quirky comedy about the model industry, filled with humorous situations and memorable characters.
+
+4. "Superbad" (2007) - A coming-of-age comedy about two high school seniors who are eager to close out the school year on a high note and aim to travel to a party.
+
+5. "Bridesmaids" (2011) - A female-led comedy where a group of friends clash as they prepare for a wedding.
+
+6. "Bull Durham" (1988) - A classic sports comedy about a veteran catcher and a rookie pitcher who get caught up in a love triangle.
+
+7. "Anchorman: The Legend of Ron Burgundy" (2004) - A hilarious look at the life of news anchors in 1970s San Diego, filled with lots of humor and quotable lines.
+
+Choose the one that best suits your mood and preferences!

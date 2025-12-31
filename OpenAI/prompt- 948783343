@@ -1,0 +1,28 @@
+Open AI response fromwrite a java program to print hello world using artificial intelligence
+n ***********************\n
+
+import java.util.Scanner;
+
+public class HelloWorldAI {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		// Input from user
+
+		System.out.print("Please enter something: ");
+
+		String s = sc.nextLine();
+
+		// Program logic
+
+		if (s.equalsIgnoreCase("Hello World") || s.equalsIgnoreCase("Print Hello World")) {
+			System.out.println("Hello World");
+		} else {
+			System.out.println("I don't understand what you mean.");
+		}
+
+		sc.close();
+	}
+}

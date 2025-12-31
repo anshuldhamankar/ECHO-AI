@@ -1,0 +1,28 @@
+Open AI response fromusing artificial intelligence write a java code to print a tree pattern
+n ***********************\n
+
+// This code will output a symmetric tree pattern
+public class PrintTree {
+	public static void main(String[] args) {
+		// Print the top row of stars
+		System.out.println("   *");
+		
+		// Print the second row of stars
+		System.out.println("  ***");
+		
+		// Print the third row of stars
+		System.out.println(" *****");
+		
+		// Print the fourth row of stars
+		System.out.println("*******");
+		
+		// Print the fifth row of stars
+		System.out.println(" *****");
+		
+		// Print the sixth row of stars
+		System.out.println("  ***");
+		
+		// Print the seventh row of stars
+		System.out.println("   *");
+	}
+}

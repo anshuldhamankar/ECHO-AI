@@ -1,0 +1,36 @@
+OpenRouter API response for: recommend me a movie like action movies
+
+***********************
+Sure, here are some action movie recommendations:
+
+1. "The Bourne Series" by Paul Greengrass - These movies starring Matt Damon offer a mix of high-octane action and a spy thriller plot. 
+
+2. "John Wick" by Chad Stahelski - Starring Keanu Reeves, this is a non-stop action film about a retired assassin on a mission of vengeance.
+
+3. "Mad Max: Fury Road" by George Miller - Set in a post-apocalyptic world, this film features heart-pumping action and stunning visuals.
+
+4. "The Raid: Redemption" by Gareth Huw Evans - An adrenaline-packed martial arts thriller set in Indonesia.
+
+5. "A Quiet Place" by John Krasinski - A unique horror-action hybrid film where creatures that hunt by sound have taken over the Earth.
+
+6. "Casino Royale" by Martin Campbell - Daniel Craig's first outing as James Bond, packed with a gripping storyline and intense action.
+
+7. "Mission: Impossible - Fallout" by Christopher McQuarrie - Ethan Hunt is back in the sixth installment of the popular action spy series.
+
+8. "The Avengers" by Joss Whedon - If you're up for a superhero action film, this one brings together many of Marvel's iconic heroes in a thrilling adventure.
+
+9. "Atomic Blonde" by David Leitch - A spy thriller set in Cold War Berlin, starring Charlize Theron.
+
+10. "Die Hard" by John McTiernan - This classic action film starring Bruce Willis is a holiday season staple.
+
+11. "The Dark Knight" by Christopher Nolan - The second installment in his excellent Batman trilogy, featuring Heath Ledger's unforgettable performance as the Joker.
+
+12. "Kill Bill: Vol. 1 & Vol. 2" by Quentin Tarantino - An homage to all things action with a killer countdown of revenge.
+
+13. "The Avengers: Endgame" by Anthony Russo and Joe Russo - The epic conclusion to the Marvel Cinematic Universe's avengers saga.
+
+14. "No Time to Die" by Cary Fukunaga - The latest James Bond film filled with all the espionage and action you'd expect.
+
+15. "Demon Slayer: Kimetsu no Yaiba - The Movie" by Haruo Sotozaki - An anime action film for those who enjoy the genre.
+
+Remember, some of these films may have mature themes, so viewer discretion is advised. Enjoy the movie night!

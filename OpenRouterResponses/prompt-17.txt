@@ -1,0 +1,4 @@
+OpenRouter API response for: recommend me a movie like action
+
+***********************
+Christopher Nolan's "The Dark Knight" (2008) is a great action-packed thriller that follows Batman (Christian Bale) as he faces the Joker (Heath Ledger) who unleashes chaos on the citizens of Gotham. It's renowned for its gripping storyline, powerful performances, and well-crafted action sequences.

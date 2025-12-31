@@ -1,0 +1,13 @@
+Open AI response fromusing artificial intelligence write a code to print a tree pattern using java
+n ***********************\n
+
+public class TreeDiagram { 
+    public static void main(String[] args) { 
+        System.out.println("    *    "); 
+        System.out.println("   ***   "); 
+        System.out.println("  *****  "); 
+        System.out.println(" ******* "); 
+        System.out.println("*********"); 
+        System.out.println("   ***   "); 
+    } 
+}

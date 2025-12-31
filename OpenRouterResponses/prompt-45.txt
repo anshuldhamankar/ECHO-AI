@@ -1,0 +1,16 @@
+OpenRouter API response for: recommend me 5 movies like Marvel
+
+***********************
+Sure, here are 5 movies that are similar to Marvel movies in terms of action, adventure, and superhero themes:
+
+1. "Watchmen" (2009): Directed by Zack Snyder, this film is based on the DC Comics graphic novel of the same name by Alan Moore and Dave Gibbons. It's set in a world where superheroes are treated as outlaws.
+
+2. "The Dark Knight" (2008): Christopher Nolan's second installment in his Batman trilogy is a gritty superhero film that was nominated for multiple Academy Awards. Heath Ledger's performance as the Joker was particularly praised.
+
+3. "Inception" (2010): Though not a traditional superhero movie, Christopher Nolan's "Inception" has many of the same elements of action and adventure.
+
+4. "Hellboy" (2004): A supernatural superhero film based on the comic book character Hellboy by Mike Mignola. It blends action and humor in a fantasy setting.
+
+5. "Kick-Ass" (2010): Directed by Matthew Vaughn, this superhero dark comedy follows a high school student who decides to become a superhero despite having no powers. It's a superhero parody that has gained a cult following.
+
+Each of these films shares some of the excitement, high-stakes action, and larger-than-life characters that make Marvel movies so popular.

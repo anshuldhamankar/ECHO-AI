@@ -1,0 +1,10 @@
+Open AI response fromusing artificial intelligence write a python code to print one from hundred
+n ***********************\n
+
+import random
+
+# Generate a random number from 1 to 100
+number = random.randint(1,100)
+
+# Print out the number
+print(number)

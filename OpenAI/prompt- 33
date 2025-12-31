@@ -1,0 +1,6 @@
+Open AI response fromusing artificial intelligence write a python code to print 1 to 100
+n ***********************\n
+
+#using a for loop 
+for x in range(1,101):
+  print(x)

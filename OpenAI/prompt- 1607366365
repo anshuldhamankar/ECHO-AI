@@ -1,0 +1,5 @@
+Open AI response fromwrite me a code in python to print hello world 10 times using for loop using artificial intelligence
+n ***********************\n
+
+for i in range(10):
+  print("Hello World!")

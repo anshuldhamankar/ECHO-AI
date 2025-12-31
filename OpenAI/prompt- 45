@@ -1,0 +1,10 @@
+Open AI response fromusing artificial intelligence write a python code to pay print star pattern
+n ***********************\n
+
+def print_stars(n):
+    for i in range(1, n+1):
+        for j in range(1, i+1):
+            print("*", end="")
+        print("\r")
+ 
+print_stars(5)

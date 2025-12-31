@@ -1,0 +1,4 @@
+OpenRouter API response for: recommend me a movie like action
+
+***********************
+"Mission Impossible - Fallout" (2018) is a great choice for an action-packed movie. This sixth installment of the Mission Impossible series starring Tom Cruise as Ethan Hunt features high-stakes espionage, thrilling stunts, and a complex plot that keeps you on the edge of your seat. The film includes memorable action sequences, from a HALO (high-altitude, low-opening) skydive jump to a motorcycle chase through Parisian streets. It's known for its exciting action, well-developed characters, and a storyline that ties into the previous Mission Impossible movies, making it both a solid standalone film and a satisfying addition to the franchise.

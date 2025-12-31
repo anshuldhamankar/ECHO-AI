@@ -1,0 +1,8 @@
+Open AI response fromusing artificial intelligence generator java code to print hello world
+n ***********************\n
+
+public class HelloWorldGenerator {
+	public static void main(String args[]) {
+		System.out.println("Hello World!");
+	}
+}

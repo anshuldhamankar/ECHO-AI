@@ -1,0 +1,18 @@
+OpenRouter API response for: recommend me a movie like horror
+
+***********************
+Here are some highly recommended horror movies across various sub-genres:
+
+Psychological Horror: "Black Swan" (2010) - A descent into madness, this film explores a ballerina's psychological breakdown amidst a competitive and sinister ballet company performance.
+
+Supernatural Horror: "The Shining" (1980) - Stanley Kubrick's classic about a writer who turns insane while caring for a hotel during its off season.
+
+Slasher/Stalker Horror: "Halloween" (1978) - John Carpenter's seminal film about Michael Myers, a masked killer who stalks his victims.
+
+Found Footage Horror: "Found Footage pioneer" "Cannibal Holocaust" (1980) - A group of filmmakers gets lost in the Amazonian jungle and encroach upon a violent and cannibalistic tribe.
+
+Body Horror: "Grave of the Fireflies" (1988) - A powerful and emotional animation about two orphaned siblings in post WWII Japan dealing with near-starvation, cruelty of others, and devastating grief.
+
+Vampire Horror: "Nosferatu" (1922) - The first vampire film, based unofficially on Dracula.
+
+Zombie Horror: "World War Z" (2013) - Globetrotting fast paced zombie pandemic.

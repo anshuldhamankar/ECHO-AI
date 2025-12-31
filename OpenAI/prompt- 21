@@ -1,0 +1,20 @@
+Open AI response fromusing artificial intelligence write a code for bird game using python
+n ***********************\n
+
+import random
+
+birds = ["sparrow","robin","eagle"]
+
+# game code
+
+def bird_game():
+    while True:
+        userInput = input("Guess the type of bird: ").lower()
+        computerBird = random.choice(birds)
+        if userInput == computerBird:
+            print("That's correct!")
+            break
+        else:
+            print("Incorrect. Try again.")
+
+bird_game()

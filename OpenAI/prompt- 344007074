@@ -1,0 +1,39 @@
+Open AI response fromusing artificial intelligence write a java code for hotel management system
+n ***********************\n
+
+import java.util.*;
+
+public class HotelManagementSystem {
+ 
+    //list of hotels 
+    static HashMap<Integer, Hotel> hotelList = new HashMap<>(); 
+    static int hotelId = 1000;
+    
+    public static void main(String args[]) {
+        Scanner input = new Scanner(System.in);
+         
+        boolean running = true;
+        while (running) {
+            System.out.println("Welcome. Please select an option!");
+            System.out.println("1: Create a new hotel");
+            System.out.println("2: Book a room");
+            System.out.println("3: View all hotels");
+            int option = input.nextInt();
+            switch (option) {
+                case 1:
+                    addNewHotel();
+                    break;
+                case 2:
+                    bookRoom();
+                    break;
+                case 3:
+                    viewAllHotels();
+                    break;
+                default:
+                    System.out.println("Invalid option!");
+                    break;
+            }
+        }
+    }
+     
+    //function to

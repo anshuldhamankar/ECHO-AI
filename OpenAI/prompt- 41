@@ -1,0 +1,77 @@
+Open AI response fromwrite java code for hotel management system using artificial intelligence
+n ***********************\n
+
+public class AIHotelManager {
+
+public void runManager() {
+
+        // 1. Create a database of customers containing name, check-in date, check-out date, and booking type
+        HashMap<String, String[]> customerDB = new HashMap<String, String[]>(); 
+
+        // 2. Check if customer is already present in the customer DB
+        String customerName = "John Doe";
+        if (customerDB.containsKey(customerName)) {
+            String[] booking = customerDB.get(customerName);
+            // 3. Check for existing booking details
+            System.out.println("# Discounts for " + customerName);
+            System.out.println("Check-in Date: " + booking[0]);
+            System.out.println("Check-out Date: " + booking[1]);
+            System.out.println("Booking Type: " + booking[2]);
+        } else {
+            // 4. Create a new booking for the customer
+            System.out.println("# Creating New Booking");
+            System.out.println("Please enter customer details");
+            System.out.println("Check-in Date (YYYY-MM-DD): ");
+            String checkinDate = console.readLine();
+            System.out.println("Check-out Date (YYYY-MM-DD): ");
+            String checkoutDate = console.readLine();
+            System.out.println("Booking Type (standard/luxury): ");
+            String bookingType = console.readLine();
+ 
+            String[] booking = new String[] {checkinDate, checkoutDate, bookingType};
+            customerDB.put(customerName, booking);
+            System.out.println("Booking added.");
+        }
+
+        // 5. Suggest best hotel to stay
+        System.out.println("# Suggest Best Hotel to Stay");
+        int checkinDay = Integer.parseInt(booking[0].split("-")[2]);
+        int checkoutDay = Integer.parseInt(booking[1].split("-")[2]);
+        int totalDays = checkoutDay - checkinDay;
+        String bookingType = booking[2];
+ 
+        List<String> allHotels = getHotels();
+        Map<String, Double> hotelScores = new HashMap<>();
+ 
+        for (String hotel : allHotels) {
+            // Prediction using AI
+            double score = predict(hotel, totalDays, bookingType);
+            hotelScores.put(hotel, score);
+        }
+ 
+        // Find hotel with maximum score
+        double maxScore = 0;
+        String bestHotel = "";
+        for (String hotel : hotelScores.keySet()) {
+            if (hotelScores.get(hotel) > maxScore) {
+                maxScore = hotelScores.get(hotel);
+                bestHotel = hotel;
+            }
+        }
+ 
+        System.out.println("Best Hotel Suggestion: " + bestHotel);
+    }
+
+    private double predict(String hotel, int totalDays, String bookingType) {
+        // Prediction using AI model
+        double score;
+        // Code to predict customer satisfaction
+        return score;
+    }
+
+    private List<String> getHotels() {
+        // Code to fetch list of hotels
+        return hotels;
+    }
+
+}

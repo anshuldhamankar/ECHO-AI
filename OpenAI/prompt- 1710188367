@@ -1,0 +1,44 @@
+Open AI response fromwrite a tic tac toe game using artificial intelligence python
+n ***********************\n
+
+import random
+
+def game_board(board):
+    print(board[7]+"|"+board[8]+"|"+board[9])
+    print("-----")
+    print(board[4]+"|"+board[5]+"|"+board[6])
+    print("-----")
+    print(board[1]+"|"+board[2]+"|"+board[3])
+
+def Player_input():
+    symbol = ""
+    while not (symbol == "X" or symbol == "O"):
+        symbol = input("Please choose your symbol as X or O: ").upper()
+
+    if symbol == "X":
+        return ("X", "O")
+    else:
+        return("O","X")
+
+def check_win(board, mark):
+    
+    return ((board[7] == mark and board[8] == mark and board[9] == mark) or # across the top
+    (board[4] == mark and board[5] == mark and board[6] == mark) or # across the middle
+    (board[1] == mark and board[2] == mark and board[3] == mark) or # across the bottom
+    (board[7] == mark and board[4] == mark and board[1] == mark) or # down the left
+    (board[8] == mark and board[5] == mark and board[2] == mark) or # down the middle
+    (board[9] == mark and board[6] == mark and board[3] == mark) or # down the right
+    (board[7] == mark and board[5] == mark and board[3] == mark) or # diagonal
+    (board[9] == mark and board[5] == mark and board[1] == mark)) # diagonal
+
+def check_draw(board):
+    for i in range(1,10):
+        if board[i] != "X" and board[i] != "O":
+            return False #Not yet ended
+    return True #Draw
+
+def choose_Random(board, moveList):
+    possibleMoves = []
+    for i in moveList:
+        if board[i] == " ":
+            possibleM
